@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {HashRouter, Redirect, Route, Switch} from 'react-router-dom';
+import {MainPage} from "./Router/MainPage/MainPage";
+import StagePage from "./Router/StagePage/StagePage";
+import {QuestPage} from "./Router/QuestPage/QuestPage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component  {
+
+  render() {
+    return (
+      <div className="App">
+        <HashRouter>
+          <Switch>
+            <Route exact path="/" component={MainPage}/>
+            <Route exact path="/stage" component={StagePage}/>
+            <Route exact path="/quest" component={QuestPage}/>
+          </Switch>
+        </HashRouter>
+      </div>
+    )
+  }
 }
 
 export default App;

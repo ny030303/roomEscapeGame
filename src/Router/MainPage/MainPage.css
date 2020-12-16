@@ -1,0 +1,111 @@
+.mainPage {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #211c1d;*/
+
+    background-image: url("/image/doors_1.jpg");
+    /*background-image: url("/image/mainBack2-1.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-family: 'Trade Winds';
+    position: relative;
+}
+
+.mainTitle {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+.mainTitleStyle {
+    background: linear-gradient(to bottom, #b3500e, #f4b325);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 88px;
+    font-weight: bold;
+    line-height: 1;
+}
+.mainSubTitleStyle {
+    background:  #f29f0a;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.App {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.main_dark {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0));
+    opacity: 0.3;
+}
+
+.mainPlayBtn {
+    /*cursor: pointer;*/
+}
+
+.mainUserProfileWrap {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.mainUserPaysWrap {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    /*cursor: pointer;*/
+}
+
+.mainUserMoneyBox {
+    position: relative;
+}
+
+
+.mainBottomIconWrap {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*background-color: #3e2f28;*/
+    /*background-color: #ddd;*/
+    /*background-image: url("/image/mainBar.png");*/
+}
+
+.mainBottomIcon {
+    background-color: #716655;
+    width: 103px;
+    height: 103px;
+    margin-left: 20px;
+    border-radius: 13px;
+    padding: 7px;
+    box-shadow: 0px 5px 1px #473e31;
+    /*cursor: pointer;*/
+    position: relative;
+}
+
+.mainBottomIcon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 83px;
+}

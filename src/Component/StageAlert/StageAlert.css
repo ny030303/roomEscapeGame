@@ -1,0 +1,48 @@
+.stageModalContents {
+    background-image: url("/image/ui/stageAlert.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0);
+    border: 0 none;
+    height: 525px;
+    position: relative;
+}
+
+.stageModalCloseBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 63px;
+    height: 71px;
+    background-color: rgba(0,0,0,0);
+    border: 0 none;
+    outline: none;
+}
+
+.stageModalName {
+    color: #DBC4A5;
+    margin-top: 10px;
+    text-shadow: 4px 3px 2px #413326;
+    font-family: 'Rubik';
+    font-size: 21px;
+    position: absolute;
+    top: 8px;
+    left: 198px;
+}
+
+.stageModalMission {
+    color: #BE8454;
+    font-size: 21px;
+    font-family: 'Rubik';
+    text-align: center;
+    margin: 165px 16px 0 0;
+}
+
+.stageModalStartBtn {
+    background-image: url("/image/ui/stageModalStartBtn.png");
+    width: 193px;
+    height: 78px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 105px;
+    left: 134px;
+}

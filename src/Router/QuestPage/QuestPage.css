@@ -1,0 +1,135 @@
+.questPage {
+    cursor: url("/image/cursor-2_1.png") 19.5 21, auto;
+    overflow: hidden;
+}
+
+
+.questBack {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #211c1d;*/
+
+    background-image: url("/image/img1.daumcdnaa.jpg");
+    /*background-image: url("/image/mainBack2-1.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+
+}
+
+.bgmWrap {
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*background-color: #f4b325;*/
+    position: fixed;
+    top: 0;
+    border-bottom: 230px solid transparent;
+    border-left: 230px solid #ff6200;
+}
+
+.moveArrowsWrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #d6d6d6;
+    height: 100%;
+}
+
+.moveArrow {
+    padding: 0 67px;
+    font-size: 33px;
+    position: relative;
+    transition: .6s;
+    background: rgba(0, 0, 0, 0)
+}
+
+.leftArrow:hover {
+    background: linear-gradient(to left, rgba(0,0,0,0), #111);
+}
+
+.rightArrow:hover {
+    background: linear-gradient(to right, rgba(0,0,0,0), #111);
+}
+
+.moveArrow span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*======questBox=======*/
+.questBoxWrap {
+    position: fixed;
+    bottom: 0;
+    left: -33px;
+    display: flex;
+}
+
+.questBoxFont {
+    transform: skew(-42deg);
+    position: absolute;
+    top: 17px;
+    left: 55px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.questHelpBox {
+    width: 312px;
+    height: 75px;
+    transform: skew(42deg);
+    background: #ff6200;
+    position: relative;
+}
+
+.questExitBox {
+    width: 225px;
+    height: 75px;
+    transform: skew(42deg);
+    background: #272725;
+
+}
+
+/*========chapter========*/
+
+.chapterWrap {
+    position: fixed;
+    top: 15px;
+    right: -16px;
+    /* overflow: hidden;*/
+}
+
+.questChapterTitle {
+    width: 386px;
+    height: 36px;
+    /*transform: skew(42deg);*/
+    background: #ded7b5;
+    position: relative;
+}
+
+.questMissionTitle {
+    width: 354px;
+    height: 36px;
+    /*transform: skew(42deg);*/
+    background: #ff6200;
+    position: relative;
+    margin-left: 32px;
+}
+
+.questLevel {
+    width: 323px;
+    height: 36px;
+    /*transform: skew(42deg);*/
+    background: #333533;
+    position: relative;
+    margin-left: 63px;
+}
+
+/*#b3500e, #f4b325*/

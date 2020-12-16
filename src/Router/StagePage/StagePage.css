@@ -1,0 +1,56 @@
+.stagePage {
+    width: 100vw;
+    height: 100vh;
+    /*background-color: #211c1d;*/
+
+    background-image: url("/image/doors_1.jpg");
+    /*background-image: url("/image/mainBack2-1.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    /*font-family: 'Trade Winds';*/
+    position: relative;
+}
+
+.stageItem {
+    display: inline-block;
+    position: relative;
+    margin: 17px 24px;
+}
+
+.stageItemImg {
+    /*box-shadow: 1px 1px 1px #ddd;*/
+}
+
+.stageItemNum {
+    color: #d9c1a7;
+    text-shadow: 4px 4px 1px #3f2f22;
+    margin: 0;
+    /* display: inline-block; */
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    font-size: 26px;
+    transform: translate(-50%, 0);
+    font-family: 'Rubik';
+}
+
+.stagePageContents {
+    display: block;
+    margin: 182px auto 0 auto;
+    width: 1032px;
+}
+
+.stagePageHeader {
+    width: 100%;
+    height: 100px;
+    background-color: #332e2a;
+    box-shadow: 1px 6px 0 #252326;
+}
+
+.goHomeIcon {
+     width: 50px;
+    height: 46px;
+    background-image: url("/image/ui/homeicon.png");
+    display: inline-block;
+}
